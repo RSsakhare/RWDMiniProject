@@ -1,0 +1,222 @@
+
+body {
+    font-family: Arial, sans-serif;
+    
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0a0a0a;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.nav-link img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.nav-link, .dropdown-toggle, .dropdown-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dropdown-menu {
+    background-color: #333;
+}
+.navbar a:hover {
+    background-color: rgb(121, 201, 232);
+    border-radius: 5px;
+}
+
+.container-fluid {
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4a36;
+}
+.main {
+    padding: 20px;
+}
+
+.carousel-inner img {
+    width: 70%;
+    height: 500px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.registration-container {
+    background: white;
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+.registration-container h2 {
+    color: #4caf50;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.registration-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-container form label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.registration-container form input[type="text"],
+.registration-container form input[type="password"],
+.registration-container form input[type="number"],
+.registration-container form input[type="email"],
+.registration-container form input[type="date"],
+.registration-container form textarea {
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.registration-container form textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+.registration-container form input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+.registration-container form button {
+    background: #4caf50;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.registration-container form button:hover {
+    background: #388e3c;
+}
+
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 2rem auto;
+}
+
+.login-container h2 {
+    color: #4caf50;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container form label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.login-container form input {
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-container form button {
+    background: #4caf50;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-container form button:hover {
+    background: #388e3c;
+}
+
+.login-container p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.login-container p a {
+    color: #4caf50;
+}
+
+marquee img{
+    width: 400px;
+    height: 400px;
+
+}
+
+
+
